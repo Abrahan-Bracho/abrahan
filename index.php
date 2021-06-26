@@ -11,7 +11,7 @@
 
         <p> Hola</p>
 
-        <p class="ppe">Soy Abrahan, desarrollador web </p>
+        <p class="ppe">Soy Abrahan, desarrollador  un web </p>
 
         <img class="abrahan" src="img/abrahan.jpg" alt="">
 
