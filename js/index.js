@@ -258,7 +258,7 @@ if(document.getElementById("boton_conicimientos")){
             duration: 2, 
         });
         gsap.to("#recistencia", {
-            width: "14%",
+            width: "70%",
             duration: 2, 
         });
         gsap.to("#katana", {
@@ -278,7 +278,7 @@ flecha.addEventListener('click', function(){flechaF();});
 
 function flechaF(){
     $('body, html').animate({
-        scrollTop: '700px'
+        scrollTop: '1000px'
     }, 300);
 }
 
