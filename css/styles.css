@@ -121,7 +121,7 @@ body::-webkit-scrollbar-thumb{
 .saludo{
     position: absolute;
     height: 6em;
-    width: 20rem;
+    width: 20vw;
     top: 20%;
     left: 70%;
     margin-left: -14em ;
@@ -211,7 +211,7 @@ p.ppe{
 
 .flecha_abajo{
     position: absolute;
-    bottom: 1em;
+    bottom: 30em;
     left: 45%;
     display: flex;
     z-index: 10;
@@ -221,7 +221,7 @@ p.ppe{
 }
 .flecha_abajo:hover{
     transition: 0.5s;
-    bottom: 0.5em;
+    bottom: 29.5em;
     cursor: pointer;
     
 }
