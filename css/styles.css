@@ -267,31 +267,36 @@ p.ppe{
     .nombre{
         position: initial;
     }
+   
 
     .saludo{
         max-width: 50%;
-        left: 63%;margin-top: 5em;
+        left: 50vw;
+        margin-top: 1em;
         background-color: var(--transparente);
+        display: grid;
+        margin-top: 1em;
     }
     .saludo p {
         max-width: 50%;
         text-align: center;
         font-size: 4em;
+        padding-left: 10px;
     }
     .saludo .ppe{
         font-size: 1em;
     }
     .abrahan{
-        top: -35vw;
-        left: 30vw;
+        top: -7vw;
+        left: 31vw;
     }
     .redes{
-        bottom: 16.5em;
-        left: 10vw;
+        bottom: 45vh;
+        left: 40px;
     }
     .flecha_abajo{
-        left: 38%;
-        bottom: 22em;
+        left: 30px;
+        bottom: 37vh;
     }
     .top_img{
         height: 53vh;
@@ -532,13 +537,7 @@ p.ppe{
     .ppe{
         width: 80vw;
     }
-    .saludo{
-        display: grid;
-        margin-top: 5.5em;
-    }
-    .saludo p {
-    padding-left: 10px;
-    }
+
     .ejemplos_paginas{
         margin-top: 10em;
         text-align: center;
