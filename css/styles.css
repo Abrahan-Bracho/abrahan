@@ -61,7 +61,7 @@ body::-webkit-scrollbar-thumb{
 .cbb{
     display: flex;
     justify-content: flex-end;
-    height: 4em;
+    height: 1em;
     margin: 0%;
    
 }
@@ -166,7 +166,7 @@ p.ppe{
 .redes{
     font-size: 2em;
     position: absolute;
-    bottom: 17.5em;
+    bottom: 60vh;
     left: 1em;
     background-color: var(--primario);
     border-radius: 50%;
@@ -192,18 +192,18 @@ p.ppe{
 }
 .facebook{
     z-index: 1;
-    bottom: 18em;
+    bottom: 62vh;
     left: 1.1em;
     display: none;
 }
 .instagram{
-    bottom: 18em;
+    bottom: 62vh;
     left: 1.1em;
     display: none;
     z-index: 2;
 }
 .github{
-    bottom: 18em;
+    bottom: 62vh;
     left: 1.1em;
     display: none;
     z-index: 3;
@@ -211,7 +211,7 @@ p.ppe{
 
 .flecha_abajo{
     position: absolute;
-    bottom: 30em;
+    bottom: 50vh;
     left: 45%;
     display: flex;
     z-index: 10;
@@ -256,7 +256,7 @@ p.ppe{
 @media only screen and (max-width: 768px) {
     .cbb{
         justify-content: space-between;
-        width: 10rem;
+        flex-direction: column;
     }
     .boton{
         margin: 0;
@@ -275,18 +275,29 @@ p.ppe{
         margin-top: 1em;
         display: grid;
         margin-top: 1em;
-    
-    .saludo p {
+        background-color: var(--transparente);
+    }
+
+    /*.saludo p{
         max-width: 50%;
         text-align: center;
         font-size: 4em;
         padding-left: 10px;
-    }
+        top: 7vh;
+
+        display: none;
+    }*/
     .saludo .ppe{
         font-size: 1em;
+        margin-left: 5vw;
+    }
+
+    .saludo-seccion{
+        margin-top: 16vh;
+         margin-left: 5vw;
     }
     .abrahan{
-        top: -7vw;
+        top: -12vh;
         left: 31vw;
     }
     .redes{
@@ -295,15 +306,21 @@ p.ppe{
     }
     .flecha_abajo{
         left: 30px;
-        bottom: 37vh;
+        bottom: 38vh;
     }
+    .flecha_abajo:hover{
+    transition: 0.5s;
+    bottom: 35vh;
+    cursor: pointer;
+    
+}
     .top_img{
         height: 53vh;
     }
    
     
 
-}
+    }
 
 
 
@@ -1068,5 +1085,4 @@ p.ppe{
             .hotmail-servicios span{
                 font-size: 0.9em;
             }
-        }
 }

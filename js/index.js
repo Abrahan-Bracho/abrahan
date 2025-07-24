@@ -87,7 +87,7 @@ if(document.getElementById("boton_conicimientos")){
 
     window.onscroll = function() {
         var y = window.scrollY;
-        if(y >= 400){
+        if(y >= 50){
             
             gsap.to("#estudio", {
                 width: "60%",
@@ -97,7 +97,7 @@ if(document.getElementById("boton_conicimientos")){
                 display: "block"
             });
         }
-        if(y <= 400){
+        if(y <= 50){
             
             gsap.to("#estudio", {
                 width: "0%",
