@@ -262,6 +262,7 @@ p.ppe{
         margin: 0;
         padding: 0;
         padding: 10px 5px 0px 5px;
+        width: 20vw;
     }
     .nombre{
         position: initial;
@@ -270,6 +271,7 @@ p.ppe{
     .saludo{
         max-width: 50%;
         left: 63%;margin-top: 5em;
+        background-color: var(--transparente);
     }
     .saludo p {
         max-width: 50%;
@@ -294,6 +296,10 @@ p.ppe{
     .top_img{
         height: 53vh;
     }
+    .cbb {
+    
+    width: 10rem;
+    
 
 }
 
