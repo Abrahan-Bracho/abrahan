@@ -15,8 +15,9 @@ function redesF(){
         gsap.to("#facebook", {
             
             display: "block",
+            zIndex : 10,
             duration: 0.1, x: -30, y: -90  ,
-            cursor: "pointer" 
+            cursor: "pointer"
         });
 
         gsap.to("#instagram", {
