@@ -15,7 +15,7 @@ function redesF(){
         gsap.to("#facebook", {
             
             display: "block",
-            zIndex : 10,
+            zIndex : 3,
             duration: 0.1, x: -30, y: -90  ,
             cursor: "pointer"
         });
@@ -104,72 +104,72 @@ github.addEventListener("mouseleave", () => hover3.reverse());
 //----------------------------------------------------
 
 
-if(document.querySelector("#mas_miart_desc") ){
+// if(document.querySelector("#ejemplo_pagina") ){
 
 
 
         
-    const mas_miart_desc = document.querySelector("#mas_miart_desc"); 
-    const miart_desc = document.querySelector("#miart_desc"); 
-    const textoMAs = document.getElementById("textoMAs");
-    let iteradorMas = 0;
+//     const ejemplo_pagina = document.querySelector("#ejemplo_pagina"); 
+//     const miart_desc = document.querySelector("#miart_desc"); 
+//     const textoMAs = document.getElementById("textoMAs");
+//     let iteradorMas = 0;
 
 
 
-    mas_miart_desc.addEventListener('click', function(){mas_miart_descF();});
+//     ejemplo_pagina.addEventListener('click', function(){ejemplo_paginaF();});
 
 
-    function mas_miart_descF(){
+//     function ejemplo_paginaF(){
         
 
-        if(iteradorMas === 0){
+//         if(iteradorMas === 0){
 
-            miart_desc.style.display = "block";
+//             miart_desc.style.display = "block";
 
-            gsap.to("#miart_desc", {
-                opacity: 1,
-                duration: 0.1,  y: 300  
-            });
-            gsap.to("#miart_desc", {
-                delay: 0.4,
-                zIndex: 2
+//             gsap.to("#miart_desc", {
+//                 opacity: 1,
+//                 duration: 0.1,  y: 300  
+//             });
+//             gsap.to("#miart_desc", {
+//                 delay: 0.4,
+//                 zIndex: 2
                 
-            });
-            textoMAs.innerHTML ="MENOS";
-            iteradorMas = 1;
-            gsap.to("#ejemplos_paginas", {
-                duration: 0.3,
-                 height: 600
+//             });
+//             textoMAs.innerHTML ="MENOS";
+//             iteradorMas = 1;
+//             gsap.to("#ejemplos_paginas", {
+//                 duration: 0.3,
+//                  height: 600
                 
-            });
+//             });
             
-            textoMAs.innerHTML ="MENOS";
-            iteradorMas = 1;
+//             textoMAs.innerHTML ="MENOS";
+//             iteradorMas = 1;
         
-        }else{
+//         }else{
 
-            gsap.to("#miart_desc", {
-                zIndex: -1,
+//             gsap.to("#miart_desc", {
+//                 zIndex: -1,
                 
-            });
-            gsap.to("#miart_desc", {
-                duration: 0.1,  y: 0 ,
-                delay: 0.4,
-                opacity: 0
-            });
-            gsap.to("#ejemplos_paginas", {
-                delay: 0.4,
-                duration: 0.3,
-                height: 400
+//             });
+//             gsap.to("#miart_desc", {
+//                 duration: 0.1,  y: 0 ,
+//                 delay: 0.4,
+//                 opacity: 0
+//             });
+//             gsap.to("#ejemplos_paginas", {
+//                 delay: 0.4,
+//                 duration: 0.3,
+//                 height: 500
                
-           });
+//            });
            
             
-            textoMAs.innerHTML ="MAS";
-            iteradorMas = 0;
+//             textoMAs.innerHTML ="MAS";
+//             iteradorMas = 0;
                 
             
-        }
+//         }
         
-    }
-}
+//     }
+// }

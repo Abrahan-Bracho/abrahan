@@ -301,7 +301,7 @@ if(document.getElementById("D1")){
 
         D1n.style.transition = "0.5s";
         D1n.style.clipPath = "polygon(0% 0px, 100% 0px, 100% 100%, 0px 100%)";
-        D1n.style.zIndex = "8";
+        D1n.style.zIndex = "4";
         D1n.style.borderBottom = "10px solid rgba(0,255,255,0.78)";
 
 
@@ -311,15 +311,16 @@ if(document.getElementById("D1")){
         
         
 
-        D2n.style.zIndex = "5";
-        D2n.style.clipPath = "polygon(30% 0px, 84% 0px, 60% 100%, 0px 100%)";
+        D2n.style.zIndex = "3";
+        D2n.style.clipPath = "polygon(0% 0px, 97% 0px, 85% 100%, 0px 100%)";
         D2n.style.transition = "0.5s";
         D2n.style.borderBottom = "5px solid rgba(0,255,255,0.78)";
+        D2n.style.left = "7em";
         //----------
             
 
         D3n.style.transition = "0.5s";
-        D3n.style.zIndex = "4";
+        D3n.style.zIndex = "2";
         D3n.style.clipPath = "polygon(0% 0px, 100% 0px, 93% 100%, 0px 100%)";
         D3n.style.borderBottom = "5px solid rgba(0,255,255,0.78)";
         D3n.style.left = "8em";
@@ -329,7 +330,7 @@ if(document.getElementById("D1")){
 
 
         D4n.style.transition = "0.5s";
-        D4n.style.zIndex = "3";
+        D4n.style.zIndex = "1";
         D4n.style.borderBottom = "5px solid rgba(0,255,255,0.78)";
 
         
@@ -351,7 +352,7 @@ if(document.getElementById("D1")){
         D2n.style.transition = "0.5s";
         D2n.style.clipPath = "polygon(0% 0px, 100% 0px, 100% 100%, 0px 100%)";
         D2n.style.borderBottom = "10px solid rgba(0,255,255,0.78)";
-        D2n.style.zIndex = "8";
+        D2n.style.zIndex = "4";
         D2n.style.left = "4em";
         
 
@@ -359,7 +360,7 @@ if(document.getElementById("D1")){
     //----------
         D1n.style.transition = "0.5s";
         D1n.style.clipPath = "polygon(0% 0px, 100% 0px, 69% 100%, 0px 100%)";
-        D1n.style.zIndex = "6";
+        D1n.style.zIndex = "3";
         D1n.style.borderBottom = "5px solid rgba(0,255,255,0.78)";
         
 
@@ -368,11 +369,11 @@ if(document.getElementById("D1")){
         D3n.style.transition = "0.5s";
         D3n.style.clipPath = "polygon(0% 0px, 100% 0px, 93% 100%, 0px 100%)";
         D3n.style.left = "10em";
-        D3n.style.zIndex = "4";
+        D3n.style.zIndex = "2";
         D3n.style.borderBottom = "5px solid rgba(0,255,255,0.78)";
         
 
-        D4n.style.zIndex = "3";
+        D4n.style.zIndex = "1";
         D4n.style.borderBottom = "5px solid rgba(0,255,255,0.78)";
     }
 
