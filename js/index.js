@@ -299,8 +299,9 @@ if(document.getElementById("D1")){
 
 
 
+        
+        D1n.style.clipPath = "polygon(0% 0px, 90% 0%, 80% 100%, 0% 100%)";
         D1n.style.transition = "0.5s";
-        D1n.style.clipPath = "polygon(0% 0px, 100% 0px, 100% 100%, 0px 100%)";
         D1n.style.zIndex = "4";
         D1n.style.borderBottom = "10px solid rgba(0,255,255,0.78)";
 
@@ -321,7 +322,7 @@ if(document.getElementById("D1")){
 
         D3n.style.transition = "0.5s";
         D3n.style.zIndex = "2";
-        D3n.style.clipPath = "polygon(0% 0px, 100% 0px, 93% 100%, 0px 100%)";
+        D3n.style.clipPath = "polygon(0% 0px, 100% 0px, 90% 100%, 0px 100%)";
         D3n.style.borderBottom = "5px solid rgba(0,255,255,0.78)";
         D3n.style.left = "8em";
         
@@ -350,7 +351,7 @@ if(document.getElementById("D1")){
     //-------------
 
         D2n.style.transition = "0.5s";
-        D2n.style.clipPath = "polygon(0% 0px, 100% 0px, 100% 100%, 0px 100%)";
+        D2n.style.clipPath = "polygon(12% 0%, 100% 0px, 100% 100%, 4% 100%)";
         D2n.style.borderBottom = "10px solid rgba(0,255,255,0.78)";
         D2n.style.zIndex = "4";
         D2n.style.left = "4em";
@@ -359,7 +360,7 @@ if(document.getElementById("D1")){
 
     //----------
         D1n.style.transition = "0.5s";
-        D1n.style.clipPath = "polygon(0% 0px, 100% 0px, 69% 100%, 0px 100%)";
+        D1n.style.clipPath = "polygon(0% 0px, 90% 0px, 69% 100%, 0px 100%)";
         D1n.style.zIndex = "3";
         D1n.style.borderBottom = "5px solid rgba(0,255,255,0.78)";
         
@@ -386,7 +387,7 @@ if(document.getElementById("D1")){
         //-----------
 
         D3n.style.transition = "0.5s";
-        D3n.style.clipPath = "polygon(0% 0px, 100% 0px, 100% 100%, 0 100%)";
+        D3n.style.clipPath = "polygon(10% 0px, 100% 0px, 100% 100%, 0 100%)";
         D3n.style.borderBottom = "10px solid rgba(0,255,255,0.78)";
         D3n.style.zIndex = "8";
         D3n.style.left = "8em";
@@ -403,7 +404,7 @@ if(document.getElementById("D1")){
     //-------------
 
         D2n.style.transition = "0.5s";
-        D2n.style.clipPath = "polygon(7% 0, 100% 0, 72% 100%, 0 100%)";
+        D2n.style.clipPath = "polygon(10% 0, 100% 0, 72% 100%, 4% 100%)";
         D2n.style.zIndex = "6";
         D2n.style.left = "4em";
         D2n.style.borderBottom = "5px solid rgba(0,255,255,0.78)";

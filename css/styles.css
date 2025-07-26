@@ -61,7 +61,7 @@ body::-webkit-scrollbar-thumb{
 .cbb{
     display: flex;
     justify-content: flex-end;
-    height: 4em;
+    height: 7vh;
     margin: 0%;
    
 }
@@ -218,6 +218,7 @@ p.ppe{
     height: 100px;
     width: 100px;
     transition: 0.5s;
+    
 }
 .flecha_abajo:hover{
     transition: 0.5s;
@@ -254,6 +255,10 @@ p.ppe{
 }
 
 @media only screen and (max-width: 768px) {
+    .bar{
+        text-align: center;
+        width: 100vw;
+    }
     .cbb{
         justify-content: space-between;
         
@@ -263,7 +268,6 @@ p.ppe{
         padding: 0;
         padding: 10px 5px 0px 5px;
         width: 20vw;
-        background-color: rgb(24 27 34);
         font-size: 5vw;
     }
     .nombre{
@@ -311,7 +315,7 @@ p.ppe{
     }
     .flecha_abajo{
         left: 50vw;
-        bottom: 38vh;
+        bottom:  35vh;
     }
     .flecha_abajo:hover{
     transition: 0.5s;
@@ -352,9 +356,11 @@ p.ppe{
     
 }
 .logo{
-    width: 100px;
-    height: 100px;
-    
+    width: 10vw;
+    height: 10vw;
+    background-color: rgba(245, 245, 220, 0.248);
+    border-radius: 20px;
+     box-shadow: -2px 6px 15px -2px rgba(7,238,214,0.75);
 }
 
 
@@ -444,8 +450,7 @@ p.ppe{
 .dibujos_pre{
     display: flex;
     max-width: 50vw;
-    margin-top: 5em;
-    margin-bottom: 15em;
+    margin: 5vh 5vh 0 5vh   ;
     height: 45em;
 }
 .descripcion_dibujos{
@@ -457,6 +462,7 @@ p.ppe{
     z-index: 6;
     width: 50vw;
     height: 50vh;
+    transition: 0.5s;
     clip-path: polygon(0 0, 70% 0, 0 171%);
     border-bottom: 5px solid var(--primario);
     border-top:solid var(--primario) ;
@@ -567,6 +573,11 @@ p.ppe{
     }
     .mas{
         margin-left: 2em;
+    }
+    .logo{
+    width: 10vh;
+    height: 10vh;
+    
     }
 
 }
@@ -1095,18 +1106,6 @@ p.ppe{
     margin-bottom: 0;
     display: block;
     padding: 2vh;
-    background-color: var(--negro);
     display: flex;
     justify-content: space-evenly;
-}
-.fooder p{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    align-content: flex-end;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    margin: 0;
-    padding: 0;
-    background-color: var(--transparente);
 }
