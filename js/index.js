@@ -280,6 +280,10 @@ function flechaF(){
     $('body, html').animate({
         scrollTop: '1000px'
     }, 300);
+            gsap.to("#flecha", {
+            display: "none"
+            
+        });
 }
 
 

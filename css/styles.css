@@ -279,11 +279,10 @@ p.ppe{
 
     .saludo{
         left: 50vw;
-        display: grid;
-        background-color: var(--transparente);
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0) 31%, rgba(24, 30, 40, 0) 100%);
     }
 
     .saludo p{
@@ -292,7 +291,9 @@ p.ppe{
         font-size: 4em;
         margin: 0;
         padding: 0;
-        
+        position: absolute;
+        top: 30vh;
+        left: 30vw;
     }
     .saludo .ppe{
         font-size: 1em;
@@ -309,15 +310,15 @@ p.ppe{
     }
     .abrahan{
         top: 5vh;
-        left: 55vw;
+        left: 30vw;
     }
     .redes{
-        bottom: 60vh;
+        bottom: 50vh;
         left: 40px;
     }
     .flecha_abajo{
-        left: 50vw;
-        bottom:  35vh;
+        left: 0vw;
+        bottom:  0vh;
     }
     .flecha_abajo:hover{
     transition: 0.5s;
@@ -564,7 +565,7 @@ p.ppe{
         margin-top: 10em;
         text-align: center;
         height: 40vh;
-        margin-bottom: 50vh;
+        margin-bottom: 60vh;
     }
     
     .ejemplos_paginas p{
