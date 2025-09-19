@@ -271,21 +271,6 @@ if(document.getElementById("boton_conicimientos")){
 
 
 
-const flecha = document.querySelector("#flecha"); 
-
-
-flecha.addEventListener('click', function(){flechaF();});
-
-function flechaF(){
-    $('body, html').animate({
-        scrollTop: '1000px'
-    }, 300);
-            gsap.to("#flecha", {
-            display: "none"
-            
-        });
-}
-
 
 if(document.getElementById("D1")){
 
